@@ -1,0 +1,10 @@
+.navbar .nav{
+	float : right;
+}
+
+.header-line{
+	background: url('../img/header-line.png');
+	background-repeat: repeat;
+	height: 4px;
+	width: 100%;
+}

@@ -1,0 +1,39 @@
+a{
+	color : #f64300;
+}
+
+.navbar .brand{
+	padding: 0px;
+}
+
+.navbar .brand > img{
+	padding-top: 5px;
+}
+
+.navbar .nav{
+	float : right;
+}
+
+.header-line{
+	background: url('../img/header-line.png');
+	background-repeat: repeat;
+	height: 4px;
+	width: 100%;
+}
+
+.orange{
+	color : #f64300;
+	text-transform: uppercase;
+}
+
+.hero-unit {
+	padding: 10px 0px 10px;
+}
+
+.slide-img{
+	background-repeat: no-repeat;
+	background-size: auto 100% !important;
+	background-position: 20% !important;
+	height: 100%;
+	width: 100%;
+}
