@@ -1,3 +1,8 @@
+body{
+	background: url('../img/bg.png');
+	background-repeat: repeat;
+}
+
 a{
 	color : #f64300;
 }
@@ -12,6 +17,19 @@ a{
 
 .navbar .nav{
 	float : right;
+}
+
+.hero-unit p{
+	padding: 25px 70px 20px;
+}
+
+@media (max-width: 480px){
+
+	.hero-unit p{
+		padding: 5px 5px 5px;
+		font-size: 14px;
+	}
+
 }
 
 .header-line{
@@ -36,4 +54,11 @@ a{
 	background-position: 20% !important;
 	height: 100%;
 	width: 100%;
+}
+
+.icon-twitter{
+	background: url('../img/twitter.png');
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 14px;
 }
