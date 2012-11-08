@@ -30,6 +30,15 @@ a{
 		font-size: 14px;
 	}
 
+	#slider {
+		width : 0%;
+		display: none;
+	}
+
+	#accordion {
+		width : 100%;
+	}
+
 }
 
 .header-line{
